@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+
+<html lang="hr-HR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Programi obrazovanja">
+    <meta name="author" content="Krešimir-Mirko Fiket">
+    <meta name="robots" content="index, follow">
+
+    <!--<base href="https://www.naziv.domena">-->
+
+    <title>PC-Builder-Select-CPU</title>
+
+    <link rel="icon" type="image/png" href="icons/pc-b-logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-nav">
+            <img src="icons/pcb_logo_120x90.svg" alt="PC-Builder: LOGO" width="55px">
+            <nav>
+                <ul class="navigation">
+                    <li><a href="index.html">Introduction</a></li>
+
+                    <li><a href="index-2A.html">Components</a></li>
+                    <!--<ul>
+                    <li><a href="index-2A.html">Components - A</a></li>
+                    <li><a href="index-2B.html">Components - B</a></li>
+                </ul>-->
+
+                    <li><a href="index-3.html">Central Processing Unit</a></li>
+                    <!--<ul>
+                    <li><a href="index-4A.html">CPU Components</a></li>
+                    <li><a href="index-4B.html">CPU Features</a></li>
+                    <li><a href="index-4C.html">CPU: AMD vs Intel</a></li>
+                </ul>-->
+
+                    <li><a href="index-5.html">Motherboard</a></li>
+                    <!--<ul>
+                    <li><a href="index-5A.html">Motherboard - Components</a></li>
+                    <li><a href="index-5B.html">Motherboard - Functions</a></li>
+                </ul>-->
+
+                    <li><a href="index-6.html">Graphics Processing Unit</a></li>
+                    <!--<ul>
+                    <li><a href="index-6A.html">CPU vs GPU: differences</a></li>
+                    <li><a href="index-6B.html">CPU vs GPU: applications</a></li>
+                </ul>-->
+                    <li><a href="index-7.html">SSD vs HDD</a></li>
+                    <li><a href="index-8.html">LCD vs LED</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <article>
+        <section>
+            <main>
+                <h1>Central Processing Unit</h1>
+
+                <h2>Core Count and Clock Speed and their Impact on Performance</h2>
+                <p>The <abbr title="Central Processing Unit">CPU</abbr>, or central processing unit, is the brain of the
+                    computer, defined by 2 main performance
+                    characteristics: Core Count and Clock Speed. For consumer processors choosing is straightforward:
+                    higher-tier models offer more cores and faster clock speeds. However, workstation processors and
+                    server
+                    processors present a more complex landscape, with specifications tailored to specific workloads.</p>
+                <p>Both core count and clock speed significantly impact application performance and efficiency.
+                    Understanding their trade-offs is essential for deciding which processor best suits your needs.</p>
+                <p>Core count and clock speed are like a team of workers: core count represents the number of workers
+                    available, while clock speed determines how quickly each worker completes their individual tasks.
+                </p>
+
+                <h3>Core Count - Parallel Processing Power</h3>
+                <p>Core count refers to the number of independent processing units in your CPU. Each core can execute
+                    instructions simultaneously, enabling parallel processing.</p>
+
+                <h4>Key benefits of higher core counts:</h4>
+                <ul>
+                    <li>Handle multiple tasks at once</li>
+                    <li>Essential for parallelizable HPC applications like data analytics and cloud virtualization</li>
+                    <li>More cores = more simultaneous workers completing independent tasks</li>
+                </ul>
+
+                <h4>Limitations:</h4>
+                <ul>
+                    <li>Single-threaded workloads don't benefit from additional cores</li>
+                    <li>Sequential tasks (where each step depends on the previous one) cannot be accelerated with more
+                        cores
+                    </li>
+                </ul>
+
+                <h3>Clock Speed - Sequential Task Performance</h3>
+                <p>Clock speed, measured in gigahertz (GHz), determines how fast each core executes instructions. Higher
+                    clock speeds mean faster completion of individual tasks. All workloads will want the highest clock
+                    speed
+                    if possible. But in reality, the trade-off for additional cores is to lower the clock speed or to
+                    increase power (and thus cooling). Unfortunately, we have to choose.</p>
+            </main>
+
+            <aside>
+                <div class="title">
+                    <h2>Quick History of <abbr title="Central Processing Unit">CPU</abbr></h2>
+                </div>
+                <div class="paragraph">
+                    <h4>Introduction</h4>
+                    <p>The central processing unit, or CPU, stands as one of the most transformative inventions in the
+                        history of technology. Often called the "brain" of a computer, the CPU is responsible for
+                        executing instructions and performing the calculations that drive modern computing. Its
+                        development spans more than seven decades, shaped by relentless innovation, fierce competition,
+                        and the ever-growing demands of both industry and consumers. Understanding the history of the
+                        CPU is to understand the story of the digital age itself.</p>
+                </div>
+
+                <div class="paragraph">
+                    <h4>Origins</h4>
+                    <p>The origins of the CPU trace back to the late 1940s and early 1950s, when computing was dominated
+                        by massive, room-sized machines built with vacuum tubes. The ENIAC, completed in 1945, is often
+                        cited as one of the first general-purpose electronic computers, yet it lacked a unified
+                        processing unit in the modern sense. The conceptual groundwork for the CPU was laid by
+                        mathematician John von Neumann, whose 1945 architecture proposal described a machine with a
+                        distinct processing unit, memory, and input/output system. This "von Neumann architecture"
+                        became the blueprint upon which nearly all subsequent processors were built.</p>
+                </div>
+            </aside>
+        </section>
+
+        <section>
+            <main>
+                <div class="container-images">
+                    <figure>
+                        <img src="images/CPU_jorge-salvador-vruAZdZzQR0-unsplash.jpg" alt="central processing unit"
+                            width="384px">
+                        <figcaption>Photo by <a
+                                href="https://unsplash.com/@jsshotz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                target="_blank">Jorge
+                                Salvador</a> on
+                            <a href="https://unsplash.com/photos/black-and-white-circuit-board-vruAZdZzQR0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                target="_blank">Unsplash</a>
+                        </figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="images/andre-tan-fGEEJ7Z8cIA-unsplash.jpg" alt="desktop computer">
+                        <figcaption>Photo by <a
+                                href="https://unsplash.com/@andredantan19?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                target="_blank">Andre
+                                Tan</a> on
+                            <a href="https://unsplash.com/photos/black-flat-screen-tv-on-brown-wooden-tv-rack-fGEEJ7Z8cIA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                target="_blank">Unsplash</a>
+                        </figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="images/harrison-broadbent-ING1Uf1Fc30-unsplash.jpg" alt="random access memory"
+                            width="384px">
+                        <figcaption>Photo by <a
+                                href="https://unsplash.com/@harrisonbroadbent?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                target="_blank">Harrison
+                                Broadbent</a> on
+                            <a href="https://unsplash.com/photos/green-circuit-board-close-up-photography-ING1Uf1Fc30?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                target="_blank">Unsplash</a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </main>
+
+            <aside>
+                <div class="paragraph">
+                    <h4>Transistors & Integrated Circuits</h4>
+                    <p>The invention of the transistor in 1947 by Bell Laboratories engineers William Shockley, John
+                        Bardeen, and Walter Brattain marked a pivotal turning point. Transistors replaced bulky vacuum
+                        tubes, making computers smaller, faster, and more reliable. By the early 1960s, transistors gave
+                        way to integrated circuits, which packed multiple electronic components onto a single silicon
+                        chip. Intel co-founder Gordon Moore famously observed in 1965 that the number of transistors on
+                        a chip was doubling approximately every two years — a prediction that became known as Moore’s
+                        Law and guided the semiconductor industry for decades.</p>
+                </div>
+            </aside>
+        </section>
+
+        <section>
+            <main>
+                <h4>When clock speed matters most:</h4>
+                <ul>
+                    <li>Sequential or single-threaded workloads</li>
+                    <li>Applications that cannot leverage parallel processing to a large extent</li>
+                    <li>HPC simulations where calculations depend on previous results</li>
+                </ul>
+
+                <h3>Good <abbr title="Central Processing Unit">CPU</abbr> speeds</h3>
+                <p>When considering what a good <abbr title="Central Processing Unit">CPU</abbr> speed is, it’s
+                    important to
+                    understand that higher numbers generally
+                    mean better performance. However, processor speed isn’t the only factor that determines a <abbr
+                        title="Central Processing Unit">CPU</abbr>’s
+                    performance. Here are some key points to consider:</p>
+                <p><b>For general use:</b> A <abbr title="Central Processing Unit">CPU</abbr> speed of 1.6 GHz to 2.5
+                    GHz is
+                    typically sufficient for everyday tasks like web
+                    browsing, word processing, and basic multimedia.</p>
+                <p><b>For gaming:</b> Generally, a speed of 3.5 GHz to 4.0 GHz is considered good for gaming, but
+                    single-thread
+                    performance is more important than raw speed.</p>
+                <p><b>For professional use:</b> Content creators, data analysts, and other professionals might need
+                    speeds
+                    of 4.0
+                    GHz and above, depending on their specific applications.</p>
+                <p>These are general guidelines. The actual performance can vary based on the <abbr
+                        title="Central Processing Unit">CPU</abbr>’s architecture, number of
+                    cores, and other factors.</p>
+
+                <h3>Overclocking</h3>
+                <p>Overclocking is basically messing with the <abbr title="Central Processing Unit">CPU</abbr> to have
+                    it
+                    run at a faster frequency than it is factory
+                    defaulted to. This is estimated as the “boosted clock” frequency. There are some risks to
+                    overclocking
+                    your <abbr title="Central Processing Unit">CPU</abbr>, like it may lessen the life-span of your
+                    <abbr title="Central Processing Unit">CPU</abbr>, and make it run hotter, but in the end, it’s
+                    really just pushing your <abbr title="Central Processing Unit">CPU</abbr> to its limits.
+                    Overclocking is
+                    not necessary, it’s really for the novelty
+                    of having that extra power. Please note that your motherboard should support overclocking in order
+                    to do
+                    this.</p>
+                <p><abbr title="Central Processing Unit">CPU</abbr> that runs at extremely fast rates is not only a
+                    problem
+                    for overheating, but can lessen the life-span
+                    of the hardware in general.</p>
+
+                <h3>CPU cooler</h3>
+                <p>Essentially, this is just a fan that cools the <abbr title="Central Processing Unit">CPU</abbr>. You
+                    DO
+                    NOT want your <abbr title="Central Processing Unit">CPU</abbr> to overheat. Some <abbr
+                        title="Central Processing Unit">CPU</abbr>s come
+                    with a fan when you purchase them. Some don’t. If you need one, you can get away with a cheap one.
+                </p>
+
+                <h3>The brand</h3>
+                <p>The main two brands are Intel and <abbr title="Advanced Micro Devices">AMD</abbr>. Intel has been the
+                    big
+                    brand name, more expensive top competitor
+                    in the market. Then, in 2017, <abbr title="Advanced Micro Devices">AMD</abbr> released their “Ryzen”
+                    line of <abbr title="Central Processing Unit">CPU</abbr>s, which were much more affordable
+                    compared to their Intel counterparts. In the end, Intel is more expensive, better quality, but only
+                    support overclocking in some of their <abbr title="Central Processing Unit">CPU</abbr>s. <abbr
+                        title="Advanced Micro Devices">AMD</abbr> is cheaper,
+                    still very good quality, and support
+                    overclocking in all of their Ryzen <abbr title="Central Processing Unit">CPU</abbr>s. Say what you
+                    want
+                    about either brand, but it really comes down
+                    to preference.</p>
+
+                <h3>The most essential factor of them all: compatibility</h3>
+                <p>As said earlier, Intel and <abbr title="Advanced Micro Devices">AMD</abbr> are the main brands that
+                    make
+                    <abbr title="Central Processing Unit">CPU</abbr>s. And their <abbr
+                        title="Central Processing Unit">CPU</abbr>s are only compatible
+                    with their respective motherboards. Make sure your <abbr title="Central Processing Unit">CPU</abbr>
+                    is
+                    compatible with your motherboard.</p>
+            </main>
+
+            <aside>
+                <div class="paragraph">
+                    <h4>The Microprocessor Era</h4>
+                    <p>The true milestone of the modern CPU arrived in 1971 when Intel released the 4004, the world’s
+                        first commercially available microprocessor. Designed by Federico Faggin, Ted Hoff, and Stanley
+                        Mazor, the 4004 integrated all CPU functions onto a single chip no larger than a fingernail.
+                        This breakthrough democratized computing, paving the way for personal computers. The subsequent
+                        Intel 8008, 8086, and eventually the x86 architecture family became the dominant standard in
+                        personal computing. Competing designs from companies like Motorola, AMD, and later ARM further
+                        diversified the landscape, each bringing innovations in speed, power efficiency, and parallel
+                        processing.</p>
+                </div>
+
+                <div class="paragraph">
+                    <h4>Modern CPUs</h4>
+                    <p>Today, CPUs bear little resemblance to their earliest ancestors. Modern processors contain
+                        billions of transistors, feature multiple cores capable of handling simultaneous tasks, and
+                        operate at clock speeds measured in gigahertz. Advances such as pipelining, out-of-order
+                        execution, and branch prediction have dramatically improved performance beyond raw clock speed
+                        alone. As Moore’s Law faces physical limitations at the nanometer scale, the industry has
+                        pivoted toward heterogeneous computing, integrating CPUs with graphics processors, AI
+                        accelerators, and specialized cores on a single chip. From the vacuum tube giants of the 1940s
+                        to the nanoscale marvels of today, the CPU’s evolution remains a testament to human ingenuity
+                        and the relentless pursuit of progress.</p>
+                </div>
+            </aside>
+        </section>
+    </article>
+</body>
+
+</html>
